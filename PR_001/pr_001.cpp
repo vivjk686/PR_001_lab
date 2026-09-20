@@ -12,7 +12,7 @@ int main() {
 
 	double z1 = (numerator1 / denominator1) * (numerator2 / denominator2);
 
-	double angle_z2 = (3.0 / 2.0) * PI - alpha;
+	double angle_z2 = (5.0 / 2.0) * PI - alpha;
 	double z2 = 1.0 / std::tan(angle_z2);
 
 	std::cout << "Alpha: " << alpha_degrees << std::endl;
